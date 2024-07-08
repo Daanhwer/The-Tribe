@@ -1,0 +1,1188 @@
+body {
+    overflow-x: hidden;
+    box-shadow: 3px 10px 20px rgb(100, 100, 162);
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    height:auto;
+    
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    margin-top: 11px;
+    background-color: chocolate;
+    width: 100%;
+}
+
+.header #mainlogo img {
+    position: relative;
+    top: 2%;
+    left: 3px;
+    width: 50px;
+}
+
+.header #title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    position: relative;
+    left: 40px;
+    top: -10px
+}
+
+.header #title #first {
+    padding-right: 10px;
+    color: rgb(67, 3, 127);
+}
+
+.header #title #last {
+    padding-right: 20px;
+    color: rgb(195, 166, 6);
+}
+
+#topNavigation {
+    margin-bottom: 2px;
+    display: block;
+    display: flex;
+}
+
+a {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    opacity: 100%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+    transition: 20ms all ease-in-out 100ms;
+}
+
+div ul {
+    opacity: 100%;
+    background-color: rgb(136, 78, 191);
+    position: relative;
+    top: 30px;
+    align-items: center;
+    margin-bottom: -44px;
+    margin-left: -200px;
+    margin-top: 50px;
+    padding-top: 8px;
+    padding-left: 37px;
+    padding-right: 35px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: solid;
+    font-weight: 900;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.admin {
+    opacity: 100%;
+    position: relative;
+    top: -30px;
+    right: -60px;
+}
+
+.admin img {
+    width: 25px;
+    border: 7px solid chocolate;
+    border-radius: 200px;
+}
+
+.admin #admin {
+    font-weight: 900;
+    font-weight: bolder;
+    opacity: 50%;
+    color: rgb(27, 21, 5);
+    position: relative;
+    left: -1px;
+    top: -15px;
+    font-style: italic;
+    padding: 0;
+    margin-top: -20px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstsection {
+    opacity: 100%;
+    color: black;
+}
+
+section #bg1 img {
+    margin-bottom: 0px;
+    width: 332px;
+}
+
+div ul button {
+    opacity: 60%;
+}
+
+div ul button:hover {
+    opacity: 80%;
+    transition: 20ms all ease-in-out 100ms;
+    animation: backwards;
+}
+
+#itext {
+    position: relative;
+    bottom: 170px;
+    left: 10px;
+    margin-right: 8px;
+}
+
+#itext h1 {
+    font-weight: 900;
+    color: brown;
+    font-family: sans-serif;
+    margin-bottom: -20px;
+}
+
+#itext h2 {
+    font-size: larger;
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+#itext em {
+    font-weight: 900;
+    color: goldenrod;
+    font-family: sans-serif;
+}
+
+.main {
+    display: block;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    height:fit-content;
+  
+}
+
+.main #main #new {
+    position: relative;
+    top: -170px;
+    left: 10px;
+    font-weight: 400;
+    font-size: small;
+    font-style: italic;
+}
+
+.main #main #new img {
+    width: 80px;
+}
+
+.main #main #brands {
+    border: 0px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: -195px;
+    left: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 3px;
+}
+
+.main #main #brands img {
+    width: 100px;
+    height: 100px;
+}
+
+.main #main #brands #b1 {
+    box-shadow: 0px 0px 15px;
+    border: 1px solid goldenrod;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.main #main #brands #b2 {
+    box-shadow: 0px 0px 15px;
+    border: 1px solid goldenrod;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.main #main #brands #b3 {
+    box-shadow: 0px 0px 15px;
+    border: 1px solid goldenrod;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.main #main #brands #b4 {
+    box-shadow: 0px 0px 15px;
+    border: 1px solid goldenrod;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.brandsaction #brand1 {
+    position: relative;
+    top: -455px;
+    right: -25px;
+}
+
+.brandsaction #view1 {
+    margin-right: 15px;
+}
+
+.brandsaction #brand1 #action1 {
+    margin-top: -40px;
+    display: flex;
+}
+
+.brandsaction #brand1 #action1 #b1 {
+    position: relative;
+    top: -144px;
+    left: -15px;
+    width: 15px;
+}
+
+.brandsaction #brand2 #action2 #b2 {
+    position: relative;
+    top: -145px;
+    left: -16px;
+    width: 15px;
+}
+
+.brandsaction #brand3 #action3 #b3 {
+    position: relative;
+    top: -140px;
+    left: -15px;
+    width: 15px;
+}
+
+.brandsaction #brand4 #action4 #b4 {
+    position: relative;
+    top: -140px;
+    left: -19px;
+    width: 15px;
+}
+
+.brandsaction #brand1 h4 {
+    color: blue;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.brandsaction #brand2 {
+    position: relative;
+    top: -538px;
+    right: -190px;
+}
+
+.brandsaction #view2 {
+    margin-right: 15px;
+}
+
+.brandsaction #brand2 #action2 {
+    margin-top: -40px;
+    display: flex;
+}
+
+.brandsaction #brand2 h4 {
+    color: blue;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.brandsaction #brand3 {
+    position: relative;
+    top: -430px;
+    right: -25px;
+}
+
+.brandsaction #view3 {
+    margin-right: 15px;
+}
+
+.brandsaction #brand3 #action3 {
+    margin-top: -45px;
+    display: flex;
+}
+
+.brandsaction #brand3 h4 {
+    color: blue;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.brandsaction #brand4 {
+    position: relative;
+    top: -513px;
+    right: -190px;
+}
+
+.brandsaction #view4 {
+    margin-right: 15px;
+}
+
+.brandsaction #brand4 #action4 {
+    margin-top: -40px;
+    display: flex;
+}
+
+.brandsaction #brand4 h4 {
+    color: blue;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+.notice #note {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-top: 0px;
+    box-shadow: 0px 0px 20px gray;
+    position: relative;
+    top: -490px;
+    border-left: 6px solid rgb(128, 113, 74);
+}
+
+.notice #note p {
+    font-style: italic;
+    padding-left: 3px;
+}
+
+.main #popular #popbrands {
+    padding-left: 8px;
+    box-shadow: inset 0px 1px 2px 2px gray;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    top: -465px;
+    bottom: auto;
+    left: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 18px;
+}
+
+.main #popular #poptext {
+    position: relative;
+    top: -470px;
+    left: 10px;
+    border-left: 5px solid green;
+    padding: 3px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    margin-right: 170px;
+}
+
+.main #popular #poptext p {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.main #popular #popbrands #b5,
+#b6,
+#b7,
+#b8,
+#b9,
+#b10 {
+    box-shadow: 0px 0px 20px gray;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.main #popular #popbrands #b5 img,
+#b6 img,
+#b7 img,
+#b8 img,
+#b9 img,
+#b10 img {
+    width: 50px;
+    height: 50px;
+}
+
+.main #popular #popbrands #b8 img,
+#b9 img,
+#b10 img {
+    margin-bottom: 20px;
+}
+
+.morecollections {
+    position: relative;
+    bottom: 470px;
+    left: 8px;
+}
+
+.morecollections #more h4:hover {
+    bottom: 20px;
+    color: blue;
+}
+
+.morecollections #more h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.newsletter {
+    transition-duration: 2ms;
+    transition: all 700ms ease-in-out;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 0px 5px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    
+    margin-bottom: 0px;
+    position: relative;
+    top: -190px;
+}
+
+.newsletter #mail {
+    margin-left: 5px;
+    box-shadow: 0px 0px 5px blue;
+}
+
+.newsletter h4 {
+    margin-left: 5px;
+    color: rgb(209, 29, 29);
+}
+
+.newsletter #submit {
+    box-shadow: 0px 0px 5px blue;
+}
+
+.socials {
+    position: relative;
+    top: 50px;
+    
+    margin-left: 70px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 5px;
+}
+
+footer {
+
+    border-bottom: 2px solid red;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: -588px;
+    margin-left: -14px;
+    margin-right:-14px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: black;
+    position: relative;
+    top: -180px;
+    bottom: 0;
+    padding-bottom: 166px;
+}
+footer #copyright{
+    position: relative;
+    top: 170px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+
+/*Android*/
+@media screen and (min-width:360px) and (max-width:1279px){
+    .header #mainlogo img {
+        position: relative;
+        top: 0%;
+        left: 9px;
+        width: 50px;
+    }
+
+#topNavigation {
+    margin-bottom: -25px;
+    margin-left: -8px;
+    display: block;
+    display: flex;
+}
+main div .getselected{
+    position: relative;
+    bottom: 500px;
+}
+
+
+
+}
+
+
+/*macbook*/
+
+@media screen and (min-width:1280px) {
+    .body {
+        width: 0 auto;
+    }
+    .header {
+        position: relative;
+        margin-bottom: 5px;
+    }
+    div #topNavigation {
+        padding-bottom: -400px;
+    }
+    .header #mainlogo img {
+        position: relative;
+        top: 1%;
+        left: 3px;
+        width: 500px;
+        height: 510px;
+    }
+    .header div #title {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        position: relative;
+        left: 30px;
+        top: 90px;
+        font-size: 60px;
+    }
+    div ul {
+        opacity: 100%;
+        background-color: rgb(136, 78, 191);
+        position: relative;
+        top: 440px;
+        right: 250px;
+        align-items: center;
+        padding-top: 0px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 8px;
+        display: flex;
+        list-style-type: none;
+        text-decoration: solid;
+        font-weight: 900;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .admin {
+        opacity: 100%;
+        position: relative;
+        top: -29px;
+        right: -40px;
+    }
+    .admin img {
+        width: 90px;
+        border: 7px solid chocolate;
+        border-radius: 200px;
+    }
+    .admin #admin {
+        position: relative;
+        top: -70px;
+        font-weight: 900;
+        font-weight: bolder;
+        opacity: 100%;
+        color: rgb(93, 69, 6);
+        padding: 0;
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    section #bg1 img {
+        margin-bottom: 0px;
+        width: 1554px;
+    }
+    #itext {
+        position: relative;
+        top: -700px;
+    }
+    #itext h1 {
+        font-size: 100px;
+        font-weight: 900;
+    }
+    #itext h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .main #main #new {
+        position: relative;
+        top: -675px;
+        left: 10px;
+        font-weight: 400;
+        font-size: small;
+        font-style: italic;
+    }
+    .main #main #new img {
+        width: 190px;
+    }
+    .main #main #brands {
+        border: 0px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        top: -710px;
+        left: 1px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-left: 3px;
+    }
+    .main #main #brands img {
+        width: 568px;
+        height: 720px;
+    }
+    .brandsaction #view1 {
+        position: relative;
+        top: -1260px;
+        left: 190px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        color: rgb(178, 44, 44);
+    }
+    .brandsaction #brand1 #action1 {
+        margin-top: -40px;
+        display: flex;
+    }
+    .brandsaction #brand1 #action1 #b1 {
+        position: relative;
+        top: -1990px;
+        left: -10px;
+        width: 50px;
+    }
+    .brandsaction #brand2 #action2 #b2 {
+        position: relative;
+        top: -2122px;
+        left: 442px;
+        width: 52px;
+    }
+    .brandsaction #brand3 #action3 #b3 {
+        position: relative;
+        top: -1730px;
+        left: -10px;
+        width: 52px;
+    }
+    .brandsaction #brand4 #action4 #b4 {
+        position: relative;
+        top: -1899px;
+        left: 440px;
+        width: 52px;
+    }
+    .brandsaction #brand1 h4 {
+        position: relative;
+        top: -1250px;
+        left: 200px;
+        color: blue;
+        font-size: 50px;
+    }
+    .brandsaction #brand2 {
+        position: relative;
+        top: -588px;
+        right: -190px;
+    }
+    .brandsaction #view2 {
+        position: relative;
+        top: -1380px;
+        left: 690px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        color: rgb(178, 44, 44);
+    }
+    .brandsaction #brand2 #action2 {
+        margin-top: -40px;
+        display: flex;
+    }
+    .brandsaction #brand2 h4 {
+        position: relative;
+        top: -1375px;
+        left: 710px;
+        color: blue;
+        font-size: 50px;
+    }
+    .brandsaction #brand3 {
+        position: relative;
+        top: -430px;
+        right: -25px;
+    }
+    .brandsaction #view3 {
+        position: relative;
+        top: -980px;
+        left: 170px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        color: rgb(178, 44, 44);
+    }
+    .brandsaction #brand3 #action3 {
+        margin-top: -45px;
+        display: flex;
+    }
+    .brandsaction #brand3 h4 {
+        position: relative;
+        top: -960px;
+        left: 220px;
+        color: blue;
+        font-size: 50px;
+    }
+    .brandsaction #brand4 {
+        position: relative;
+        top: -522px;
+        right: -190px;
+    }
+    .brandsaction #view4 {
+        position: relative;
+        top: -1140px;
+        left: 640px;
+        padding-bottom: 0px;
+        font-size: 40px;
+        color: rgb(178, 44, 44);
+    }
+    .brandsaction #brand4 #action4 {
+        margin-top: -40px;
+        display: flex;
+    }
+    .brandsaction #brand4 h4 {
+        position: relative;
+        top: -1120px;
+        left: 680px;
+        color: blue;
+        font-size: 50px;
+    }
+    .notice #note {
+        
+        margin-right: 4px;
+        margin-left: 2px;
+        padding-top: 0px;
+        box-shadow: 0px 0px 20px gray;
+        position: relative;
+        top: -1700px;
+        left: 4px;
+        border-left: 6px solid rgb(128, 113, 74);
+    }
+    .notice #note p {
+        font-style: italic;
+        padding-left: 3px;
+        font-size: larger;
+    }
+    .main{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: -250rem;
+    }
+    
+    .main #popular #popbrands {
+        padding-left: 8px;
+        box-shadow: inset 0px 1px 2px 2px gray;
+        border: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        top: -1700px;
+        bottom: auto;
+        left: 1px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-bottom: 18px;
+    }
+    
+    .main #popular #poptext {
+        position: relative;
+        top: -1700px;
+        left: 10px;
+        border-left: 5px solid green;
+        padding: 3px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px;
+        margin-right: 15px;
+    }
+    
+    .main #popular #poptext p {
+        font-size: larger;
+        font-weight:900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .main #popular #popbrands #b5,
+    #b6,
+    #b7,
+    #b8,
+    #b9,
+    #b10,
+    #b11,
+    #b12,
+    #b13 {
+        box-shadow: 0px 0px 20px gray;
+        border: 2px solid black;
+        margin-right: 3px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    .main #popular #popbrands #b5 img,
+    #b6 img,
+    #b7 img,
+    #b8 img,
+    #b9 img,
+    #b10 img,
+    #b11 img,
+    #b12 img,
+    #b13 img{
+        width: 350px;
+        height: 360px;
+    }
+    
+    .main #popular #popbrands #b8 img,
+    #b9 img,
+    #b10 img {
+        margin-bottom: 5px;
+    }
+    
+    
+    .morecollections {
+        
+        position: relative;
+        bottom: 1690px;
+        left: 8px;
+    }
+    
+    .morecollections #more h4:hover {
+        bottom: 20px;
+        color: blue;
+    }
+    
+    .morecollections #more h4 {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    .newsletter {
+    transition-duration: 2ms;
+    transition: all 700ms ease-in-out;
+    margin-left: 2px;
+    margin-right: 2px;
+    box-shadow: 0px 0px 5px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    
+    margin-bottom: 0px;
+    position: relative;
+    top: -190px;
+}
+
+.newsletter #mail {
+    margin-left: 5px;
+    box-shadow: 0px 0px 5px blue;
+}
+
+.newsletter h4 {
+    margin-left: 5px;
+    color: rgb(209, 29, 29);
+}
+
+.newsletter #submit {
+    box-shadow: 0px 0px 5px blue;
+}
+
+.socials {
+    position: relative;
+    top: 50px;
+    left: 460px;
+   
+    margin-left: 70px;
+    display: flex;
+    row-gap: 25px;
+    column-gap: 5px;
+}
+
+footer {
+
+    border-bottom: 2px solid red;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: -588px;
+    margin-left: -14px;
+    margin-right:-14px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: black;
+    position: relative;
+    top: -180px;
+    bottom: 0;
+    padding-bottom: 166px;
+}
+footer #copyright{
+    position: relative;
+    top: 170px;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+    
+}
+
+
+/*Desktop*/
+
+@media screen and (min-width:1500px) {
+    .body {
+        width: 0 auto;
+    }
+    .header {
+        position: relative;
+        margin-bottom: 5px;
+    }
+    div #topNavigation {
+        padding-bottom: -400px;
+    }
+    .header #mainlogo img {
+        position: relative;
+        top: 1%;
+        left: 3px;
+        width: 500px;
+        height: 510px;
+    }
+    .header div #title {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        position: relative;
+        left: 90px;
+        top: -5px;
+        font-size: 70px;
+    }
+    div ul {
+        opacity: 100%;
+        background-color: rgb(136, 78, 191);
+        position: relative;
+        top: 350px;
+        right: 450px;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-left: -0px;
+        margin-top: 150px;
+        padding-top: 8px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 8px;
+        display: flex;
+        gap: 10px;
+        list-style-type: none;
+        text-decoration: solid;
+        font-weight: 900;
+        font-size: small;
+        font-family: sans-serif;
+    }
+    .admin {
+        opacity: 100%;
+        position: relative;
+        top: -170px;
+        right: -190px;
+    }
+    .admin img {
+        width: 90px;
+        border: 7px solid chocolate;
+        border-radius: 200px;
+    }
+    .admin #admin {
+        position: relative;
+        top: -60px;
+        left: 8px;
+        font-weight: 900;
+        font-weight: bolder;
+        opacity: 30%;
+        color: rgb(93, 69, 6);
+        padding: 0;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+    section #bg1 img {
+        margin-bottom: 0px;
+        width: 1550px;
+    }
+    #itext {
+        position: relative;
+        top: -700px;
+    }
+    #itext h1 {
+        font-size: 100px;
+        font-weight: 900;
+    }
+    #itext h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .main #main #new {
+        position: relative;
+        top: -675px;
+        left: 10px;
+        font-weight: 400;
+        font-size: small;
+        font-style: italic;
+    }
+    .main #main #new img {
+        width: 190px;
+    }
+    .main #main #brands {
+        border: 0px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        top: -710px;
+        left: 1px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-left: 3px;
+    }
+    .main #main #brands img {
+        width: 720px;
+        height: 720px;
+    }
+    .brandsaction #view1 {
+        position: relative;
+        top: -1240px;
+        left: 290px;
+        padding-bottom: 0px;
+        font-size: 30px;
+        color: rgb(178, 44, 44);
+    }
+    .brandsaction #brand1 #action1 {
+        margin-top: -40px;
+        display: flex;
+    }
+    .brandsaction #brand1 #action1 #b1 {
+        position: relative;
+        top: -1990px;
+        left: -10px;
+        width: 50px;
+    }
+    .brandsaction #brand2 #action2 #b2 {
+        position: relative;
+        top: -2045px;
+        left: 610px;
+        width: 52px;
+    }
+    .brandsaction #brand3 #action3 #b3 {
+        position: relative;
+        top: -760px;
+        left: -292px;
+        width: 52px;
+    }
+    .brandsaction #brand4 #action4 #b4 {
+        position: relative;
+        top: -755px;
+        left: -188px;
+        width: 52px;
+    }
+    .brandsaction #brand1 h4 {
+        position: relative;
+        top: -1250px;
+        left: 310px;
+        color: blue;
+        font-size: 50px;
+    }
+    .brandsaction #brand2 {
+        position: relative;
+        top: -538px;
+        right: -190px;
+    }
+    .brandsaction #view2 {
+        position: relative;
+        top: -1290px;
+        left: 850px;
+        padding-bottom: 0px;
+        font-size: 30px;
+        color: rgb(178, 44, 44);
+    }
+    .brandsaction #brand1 #action1 {
+        position: relative;
+        top: -85px;
+        left: -20px;
+    }
+    .brandsaction #brand2 #action2 {
+        position: relative;
+        top: -85px;
+        left: -20px;
+    }
+    .brandsaction #brand2 h4 {
+        position: relative;
+        top: -1370px;
+        left: 850px;
+        color: blue;
+        font-size: 50px;
+    }
+    .brandsaction #brand3 {
+        position: relative;
+        top: -430px;
+        right: -25px;
+    }
+    .brandsaction #view3 {
+        margin-right: 15px;
+    }
+    .brandsaction #brand3 #action3 {
+        position: relative;
+        top: -880px;
+        font-size: 30px;
+        left: 280px;
+    }
+    .brandsaction #brand3 h4 {
+        position: relative;
+        top: -900px;
+        left: 320px;
+        color: blue;
+        font-size: 50px;
+    }
+    .brandsaction #brand4 {
+        position: relative;
+        top: -532px;
+        right: -190px;
+    }
+    .brandsaction #view4 {
+        margin-right: 15px;
+    }
+    .brandsaction #brand4 #action4 {
+        position: relative;
+        top: -1000px;
+        font-size: 30px;
+        left: 780px;
+    }
+    .brandsaction #brand4 h4 {
+        position: relative;
+        top: -990px;
+        left: 810px;
+        color: blue;
+        font-size: 50px;
+    }
+    .notice #note {
+        margin-right: 2px;
+        margin-left: 2px;
+        padding-top: 0px;
+        box-shadow: 0px 0px 20px gray;
+        position: relative;
+        top: -490px;
+        border-left: 6px solid rgb(128, 113, 74);
+    }
+    .notice #note p {
+        font-style: italic;
+        padding-left: 3px;
+    }
+}

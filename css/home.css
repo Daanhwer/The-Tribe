@@ -400,24 +400,37 @@ div ul button:hover {
 #b7,
 #b8,
 #b9,
-#b10 {
-    box-shadow: 0px 0px 20px gray;
-    border: 2px solid black;
-    margin-right: 10px;
+#b10,
+#b11,
+#b12,
+#b13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    
+    margin-right: -110px;
+    margin-left: 0px;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 2px;
+    
 }
+
+
 
 .main #popular #popbrands #b5 img,
 #b6 img,
 #b7 img,
 #b8 img,
 #b9 img,
-#b10 img {
-    width: 50px;
-    height: 50px;
+#b10 img,
+#b11 img,
+#b12 img,
+#b13 img {
+    width: 90px;
+    height: 90px;
 }
+
 
 .main #popular #popbrands #b8 img,
 #b9 img,
@@ -523,10 +536,27 @@ footer #copyright{
     display: block;
     display: flex;
 }
-main div .getselected{
-    position: relative;
-    bottom: 500px;
+.main #popular #popbrands #b5,
+#b6,
+#b7,
+#b8,
+#b9,
+#b10,
+#b11,
+#b12,
+#b13 {
+    border: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+
+    margin-right: -1200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
 }
+
 
 
 
